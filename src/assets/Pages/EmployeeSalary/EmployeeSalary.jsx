@@ -17,10 +17,10 @@ setValue(newValue);
 } 
 
   return (
-    <div className='mt-6'>
-    <div>
+    <div className='mt-6  '>
+    <div className='mx-5 flex justify-between'>
       <input type="text" placeholder="Type here" className="input input-md w-full max-w-xs select-bordered" />
-      <select className="select w-full max-w-xs">
+      <select className="select input input-md w-full max-w-xs select-bordered">
   <option disabled selected>Pick your favorite Simpson</option>
   <option>Homer</option>
   <option>Marge</option>
@@ -28,7 +28,7 @@ setValue(newValue);
   <option>Lisa</option>
   <option>Maggie</option>
 </select>
-      <select className="select w-full max-w-xs">
+      <select className="  input input-md w-full max-w-xs select-bordered">
   <option disabled selected>Pick your favorite Simpson</option>
   <option>Homer</option>
   <option>Marge</option>
@@ -36,7 +36,7 @@ setValue(newValue);
   <option>Lisa</option>
   <option>Maggie</option>
 </select>
-<div>
+<div className='input input-md w-full max-w-xs select-bordered'>
   <Datepicker
 value={value} 
 onChange={handleValueChange} 

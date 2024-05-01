@@ -18,7 +18,7 @@ export default function Sidebar({ children }) {
             }`}
             alt=""
           />
-          <p className="text-lg font-extrabold">PANEL</p>
+          <p className="text-lg font-extrabold ">PANEL</p>
           <button
             onClick={() => setExpanded((curr) => !curr)}
             className="p-1.5 rounded-lg bg-gray-50 hover:bg-gray-100"
