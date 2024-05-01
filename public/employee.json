@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Johnson",
+    "employeeId": "E1001",
+    "email": "alice.johnson@example.com",
+    "joinDate": "2020-01-15",
+    "role": "Software Engineer",
+    "salary": "$120,000",
+    "payslip": "https://example.com/payslips/alice.pdf",
+    "image": "https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Bob Smith",
+    "employeeId": "E1002",
+    "email": "bob.smith@example.com",
+    "joinDate": "2019-08-23",
+    "role": "Product Manager",
+    "salary": "$130,000",
+    "payslip": "https://example.com/payslips/bob.pdf",
+    "image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Carol White",
+    "employeeId": "E1003",
+    "email": "carol.white@example.com",
+    "joinDate": "2021-03-11",
+    "role": "UX Designer",
+    "salary": "$110,000",
+    "payslip": "https://example.com/payslips/carol.pdf",
+    "image": "https://t3.ftcdn.net/jpg/01/74/17/14/360_F_174171415_o4EvnOmPdt1zn7x0wH9ZWw9ROsWHf34J.jpg"
+  },
+  {
+    "id": "4",
+    "name": "David Brown",
+    "employeeId": "E1004",
+    "email": "david.brown@example.com",
+    "joinDate": "2018-05-20",
+    "role": "Marketing Specialist",
+    "salary": "$90,000",
+    "payslip": "https://example.com/payslips/david.pdf",
+    "image": "https://st.depositphotos.com/1032561/1587/i/450/depositphotos_15875357-Portrait-of-a-smiling-young-business-man-isolated-on-white-back.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Eva Green",
+    "employeeId": "E1005",
+    "email": "eva.green@example.com",
+    "joinDate": "2022-02-01",
+    "role": "HR Manager",
+    "salary": "$95,000",
+    "pailsip": "https://example.com/payslips/eva.pdf",
+    "image": "https://t3.ftcdn.net/jpg/04/97/66/28/360_F_497662812_7rGW6PMBJR9AbrKcGgN5S1luXYTjH92i.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Frank Castle",
+    "employeeId": "E1006",
+    "email": "frank.castle@example.com",
+    "joinDate": "2020-07-15",
+    "role": "Security Analyst",
+    "salary": "$105,000",
+    "payslip": "https://example.com/payslips/frank.pdf",
+    "image": "https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg"
+  }
+]

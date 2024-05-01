@@ -19,6 +19,7 @@ const router = createBrowserRouter([
         {
             path: "/employeeSalary",
             element: <EmployeeSalary/>,
+            loader: () => fetch('/employee.json')
         },
         {
             path: "/payslip",

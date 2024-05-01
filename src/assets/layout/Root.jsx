@@ -6,12 +6,8 @@ import { HandCoins } from 'lucide-react'
 
 const Root = () => {
   return (
-    <div>
-    <div className='max-w-7xl mx-auto font-poppins mt-6'>
-      <NavBar />
-      <Outlet />
-    </div>
-    <div className='w-full flex'>
+    <div className=' flex'>
+     <div className='w-36 flex'>
       <Sidebar>
          <div className="dropdown dropdown-hover">
   <div tabIndex={0} role="button" className=" m-1"><SidebarItem icon={<HandCoins size={20} />} text={"payrol"} /></div>
@@ -22,7 +18,14 @@ const Root = () => {
   </ul>
 </div>
       </Sidebar>
+      <div className=' font-poppins mt-6'>
+      <NavBar />
+      <div className='border border-b-0 lg:w-screen'></div>
+      <Outlet />
     </div>
+    </div>
+    
+   
     </div>
   )
 }
