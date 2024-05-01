@@ -22,21 +22,16 @@ setValue(newValue);
       <input type="text" placeholder="Type here" className="input input-md w-full max-w-xs select-bordered" />
       <select className="select input input-md w-full max-w-xs select-bordered">
   <option disabled selected>Pick your favorite Simpson</option>
-  <option>Homer</option>
-  <option>Marge</option>
-  <option>Bart</option>
-  <option>Lisa</option>
-  <option>Maggie</option>
+  <option>Employee</option>
+  <option>Manager</option>
 </select>
       <select className="  input input-md w-full max-w-xs select-bordered">
   <option disabled selected>Pick your favorite Simpson</option>
-  <option>Homer</option>
-  <option>Marge</option>
-  <option>Bart</option>
-  <option>Lisa</option>
-  <option>Maggie</option>
+  <option>Cash</option>
+  <option>Cheque</option>
+
 </select>
-<div className='input input-md w-full max-w-xs select-bordered'>
+<div className=' w-full max-w-xs select-bordered'>
   <Datepicker
 value={value} 
 onChange={handleValueChange} 

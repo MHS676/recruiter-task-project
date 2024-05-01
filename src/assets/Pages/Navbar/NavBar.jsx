@@ -21,7 +21,7 @@ const NavBar = () => {
 <FcBusinessman className='text-xl'/>
 
 </div>   
-<p className='text-xl font-bold'>Admin</p> 
+<p className='text-xl font-bold mr-4'>Admin</p> 
 </div>
   )
 }

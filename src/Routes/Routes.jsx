@@ -5,6 +5,7 @@ import EmployeeSalary from "../assets/Pages/EmployeeSalary/EmployeeSalary";
 import PayrollItems from "../assets/Pages/PayrollItems/PayrollItems";
 import Payslip from "../assets/Pages/Payslip/Payslip";
 import Root from "/src/assets/layout/Root"
+import Additon from "../assets/Pages/Addition/Additon";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         {
             path: "/payrollItems",
             element: <PayrollItems/>,
+        },
+        {
+            path: "/addition",
+            element: <Additon/>,
         },
        
     ]
